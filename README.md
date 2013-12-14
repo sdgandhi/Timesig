@@ -8,4 +8,7 @@ Compatibility
 --------
 
 Tested and working on Mac OSX.
+
+Should work on Linux, not tested.
+
 Windows support is planned.
