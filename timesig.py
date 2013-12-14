@@ -41,15 +41,22 @@ def printBar16(curBeat):
 
 
 curBeat = 0
-firstPrintLine = 4
-tabPrintLine = 5
+firstPrintLine = 11
+tabPrintLine = 1
 
 stdscr = curses.initscr()
 curses.resizeterm(25, 120)
 curses.noecho()
 curses.cbreak()
 stdscr.keypad(1)
-stdscr.addstr("Welcome to Timesig.\nThis utility keeps track of odd time signatures so you can learn to improvise outside of 4/4.")
+stdscr.addstr("Welcome to Timesig.\nThis utility keeps track of odd time signatures so you can learn to improvise outside of 4/4.\n")
+stdscr.addstr("\nDirections: Position your fingers on the keyboard home keys (a, s, d, f, j, k, l, ;).")
+stdscr.addstr("\n            These keys are your way to count out 8 beats in a bar.")
+stdscr.addstr("\n            You may use only the left 4 keys if you want to keep your right hand free.")
+stdscr.addstr("\n            As you type each key, you will see the beat advance in the display.")
+stdscr.addstr("\n            While experimenting with odd time signature improvisation over 4/4, ")
+stdscr.addstr("\n            you can now keep track of the underlying beat.")
+stdscr.addstr("\n            Press r to reset the beat count.")
 
 stdscr.addstr(firstPrintLine,tabPrintLine,"BEAT NUMBER: ")
 stdscr.addstr(firstPrintLine+1,tabPrintLine,"BEATS LEFT IN EIGHT: ")
