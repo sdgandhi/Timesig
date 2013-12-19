@@ -3,6 +3,11 @@ Timesig
 
 A command line utility to help musicians improvise odd time signatures over 4/4.
 
+Run
+--------
+Run with:
+<pre><code>python timesig.py</code></pre>
+
 
 Compatibility
 --------
