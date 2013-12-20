@@ -17,3 +17,7 @@ Tested and working on Mac OSX.
 Should work on Linux, not tested.
 
 Windows support is planned.
+
+
+--------
+Have a melodic day.
